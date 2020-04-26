@@ -2,13 +2,13 @@ function funcity(){
     var nammie=prompt('what is your name nigga?')
     var bed =document.createElement('h2');
     var con=document.getElementById('dom');
-    
+        
     if(nammie.length>0){
         var textin=document.createTextNode('you are welcome'+ " " + nammie);    
         con.appendChild(bed);
         bed.appendChild(textin)
     }
-    
+    document.getElementById('remove').style.visibility='hidden';
 }
 function myfunction(){
     var store=document.createElement('p');
