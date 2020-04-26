@@ -1,4 +1,11 @@
-
+function funcity(){
+    var nammie=prompt('what is your name nigga?')
+    var bed =document.createElement('h2');
+    var con=document.getElementById('dom');
+    con.appendChild(bed);
+    var textin=document.createTextNode('you are welcome'+ " " + nammie);
+    bed.appendChild(textin)
+}
 function myfunction(){
     var store=document.createElement('p');
     var main=document.getElementById('aim');
