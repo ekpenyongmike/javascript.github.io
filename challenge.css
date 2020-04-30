@@ -11,12 +11,18 @@ body{
     margin: 50px;
 }
 
-.container-3{
+/* .container{
     border: 1px solid black;
     width: 75%;
     margin: 0 auto;
     text-align: center;
     
+} */
+
+#ye{
+    font-size: 20px;
+    padding-left: 0px;
+    margin-left: 0px;
 }
 
 .flex img:hover{
